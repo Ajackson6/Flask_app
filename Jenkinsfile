@@ -14,7 +14,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -t ajackson63/Flask_app .'
+        sh 'docker build -t Ajackson6/Flask_app .'
       }
     }
 
