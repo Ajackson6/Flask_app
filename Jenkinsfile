@@ -8,13 +8,13 @@ pipeline {
   stages {
     stage('git') {
       steps {
-        git(url: 'https://github.com/Ajackson6/Flask_app.git', branch: 'main')
+        git(url: 'https://github.com/ajackson63/Flask_app.git', branch: 'main')
       }
     }
 
     stage('Build') {
       steps {
-        sh 'docker build -t ajackson6/flask_app .'
+        sh 'docker build -t ajackson63/flask_app .'
       }
     }
 
