@@ -26,7 +26,7 @@ pipeline {
 
     stage('Docker Push') {
       steps {
-        sh 'docker push ajackson63/Flask_app'
+        sh 'docker push ajackson63/Flask_app .'
       }
     }
 
